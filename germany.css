@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+:root {
+    --black: #202C36;
+    --oq: black;
+    --kok: #2B3844;
+
+}
+
+.sun {
+    --qora: #202C36;
+    --kok: #2B3844;
+    --oq: white;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        width: 375px;
+    }
+
+
+    .container {
+        width: 343px;
+    }
+
+    nav {
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: -65px;
+
+    }
+
+    .where {
+        font-size: 14px !important;
+        line-height: 20px;
+    }
+
+    .dark {
+        display: flex;
+    }
+
+    .dark img {
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    .dark h3 {
+        /* width: 60px !important; */
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 600;
+        font-size: 12px !important;
+        line-height: 16.37px;
+    }
+
+    .btn {
+        width: 120px !important;
+        height: 32px !important;
+        margin-left: -60px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px !important;
+        font-weight: 300;
+        line-height: 20px;
+        box-shadow: 0px 0px 7px 0px #0000004B;
+
+
+    }
+
+
+    .flag {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sariq_qora img {
+        width: 319px !important;
+        height: 275px !important;
+        margin-left: -55px;
+        margin-top: 64px;
+        /* margin-bottom: 44px;   */
+    }
+
+    .text {
+        width: 85px !important;
+        height: 30px !important;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 22px !important;
+        font-weight: 800;
+        line-height: 30px !important;
+        margin-left: -200px;
+        color: white !important;
+        margin-top: -90px;
+    }
+
+    .native p {
+        margin-left: -200px;
+    }
+
+    .lavel p {
+        margin-left: -330px;
+        margin-top: 100px;
+    }
+
+    .border{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .border b{
+        font-family: 'Nunito Sans', sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+margin-left: -195px;
+margin-bottom: 16px;
+
+    }
+
+    .border ul a{
+        /* display: flex; */
+        flex-wrap: wrap;
+    }
+}
+
+
+header {
+    max-width: 1440px;
+    background-color: var(--qora);
+}
+
+nav {
+    background-color: var(--kok);
+
+}
+
+
+
+.container {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 0 24px 0;
+}
+
+.where {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: var(--oq);
+}
+
+.dark {
+    display: flex;
+    gap: 8px;
+}
+
+.dark img {
+    width: 15px;
+    height: 13.75px;
+    border: 1.25px;
+    cursor: pointer;
+}
+
+.dark h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: var(--oq);
+    cursor: pointer;
+}
+
+.belgiya {
+    max-width: 1440px;
+    background: var(--qora);
+    padding: 80px 0 0 0;
+}
+
+.btn {
+    width: 136px;
+    height: 40px;
+    background: var(--kok);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 39px 10px 32px;
+}
+
+.flag {
+    display: flex;
+}
+
+.sariq_qora img {
+    margin-top: 80px;
+    width: 560px;
+    height: 401px;
+}
+
+.belgium {
+    display: flex;
+    gap: 117px;
+}
+
+.native {
+    margin-left: 144px;
+    margin-top: 119px;
+}
+
+.text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--oq);
+    margin-bottom: 23px;
+}
+
+.native p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--oq);
+}
+
+.native b {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.lavel {
+    width: 250px;
+    margin-top: 186px;
+}
+
+.lavel p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--oq);
+}
+
+.lavel b {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.border {
+    display: flex;
+    margin: 70px 0 0 144px;
+    margin-bottom: 382px;
+}
+
+.border b {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--oq);
+    margin-right: 16px;
+}
+
+.border ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.border a {
+    width: 96px;
+    height: 28px;
+    text-decoration: none;
+    padding: 5px 19px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    color: var(--oq);
+    margin-top: 5px;
+    background: var(--kok);
+
+}

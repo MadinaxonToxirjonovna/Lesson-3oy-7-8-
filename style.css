@@ -1,0 +1,669 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+:root {
+    --black: #202C36;
+    --qora: white;
+    --kok: #2B3844;
+
+}
+
+.sun{
+    --oq: white;
+    --qora: #202C36;
+    --kok: #2B3844;
+
+}
+@media screen and (max-width: 600px) {
+
+    header{
+        width: 375px;
+    }
+
+
+    .container{
+        width: 343px;
+    }
+
+    nav{
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: -65px;
+
+    }
+
+    .where{
+        font-size: 14px !important;
+        line-height: 20px;
+    }
+
+    .dark img{
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    .dark h3{
+        width: 60px !important;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 600;
+        font-size: 12px !important;
+        line-height: 16.37px;
+    }
+
+    .search{
+        width: 343px;
+        height: 48px;
+    }
+
+    .bayroq{
+        margin-left: -65px;
+    }
+
+    .search{
+        max-width: 340px;
+        margin-top: 24px !important;
+    }
+
+    .bayroqlar1{
+        flex-wrap: wrap;
+        padding-left: 55px;
+        padding-right: 56px;
+        gap: 40px !important;
+        margin-top: 120px;
+    }
+
+    .bayroqlar2{
+        flex-wrap: wrap;
+        padding-left: 55px;
+        padding-right: 56px;
+        gap: 40px !important;
+        margin-top: -40px;
+    }
+
+}
+
+header {
+    max-width: 1440px;
+    background-color: var(--qora);
+}
+
+nav {
+    background-color: #2B3844;
+
+}
+
+
+.container {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: var(--oq);
+    margin: 23px 0 24px 0;
+}
+
+
+.dark {
+    display: flex;
+    gap: 10.5px;
+    margin: 29px 0 29px 0;
+
+}
+
+.dark img {
+    width: 15px;
+    height: 13.75px;
+    margin-top: 4px;
+    cursor: pointer;
+    color: var(--kok);
+}
+
+.dark h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    Letter-spacing: 0px;
+    text-align: Align left;
+    color: var(--oq);
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    width: 480px;
+    height: 56px;
+    border-radius: 5px;
+    background: rgb(43, 56, 68);
+    margin: 48px 0 48px 0;
+}
+
+.search img {
+    width: 18px;
+    height: 18px;
+    margin: 19px 24px 19px 32px;
+}
+
+.search input {
+    width: 100%;
+    background-color: rgb(43, 56, 68);
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-radius: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+::placeholder {
+    color:var(--oq);
+}
+
+.bayroqlar1 {
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 75px;
+    margin-bottom: 75px;
+}
+
+.germany {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    background: var(--kok);
+}
+
+.germany img {
+    width: 100%;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.germany h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--oq);
+    margin: 24px 0 0 24px;
+    font-weight: 800;
+
+}
+
+.Population {
+    width: 149px;
+    height: 16px;
+    display: flex;
+    /* border: 1px solid lawngreen; */
+    margin: 16px 0 0 24px;
+}
+
+.Population b {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: var(--oq);
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+.Population h4 {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    color: var(--oq);
+    margin-left: 5px;
+}
+
+
+.region {
+    width: 149px;
+    height: 16px;
+    display: flex;
+    /* border: 1px solid lawngreen; */
+    margin: 8px 0 0 24px;
+}
+
+.region b {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: var(--oq);
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.region h4 {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    color: var(--oq);
+    margin-left: 5px;
+
+}
+
+.berlin {
+    width: 149px;
+    height: 16px;
+    display: flex;
+    /* border: 1px solid lawngreen; */
+    margin: 8px 0 0 24px;
+}
+
+.berlin b {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: var(--oq);
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+.berlin h4 {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    color: var(--oq);
+    margin-left: 5px;
+
+}
+
+.usa {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    background: var(--kok);
+}
+
+.usa img {
+    width: 100%;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.usa h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--oq);
+    margin: 24px 0 0 24px;
+    font-weight: 800;
+
+}
+
+.brazil {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    background: var(--kok);
+}
+
+.brazil img {
+    width: 100%;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.brazil h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--oq);
+    margin: 24px 0 0 24px;
+    font-weight: 800;
+
+}
+
+.iceland {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    background: var(--kok);
+}
+
+.iceland img {
+    width: 100%;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.iceland h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--oq);
+    margin: 24px 0 0 24px;
+    font-weight: 800;
+
+}
+
+.bayroqlar2 {
+    display: flex;
+    gap: 75px;
+    padding-bottom: 75px;
+}
+
+.afghanistan {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    background: var(--kok);
+}
+
+.afghanistan img {
+    width: 100%;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.afghanistan h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--oq);
+    margin: 24px 0 0 24px;
+    font-weight: 800;
+
+}
+
+.Population {
+    width: 149px;
+    height: 16px;
+    display: flex;
+    /* border: 1px solid lawngreen; */
+    margin: 16px 0 0 24px;
+}
+
+.Population b {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: var(--oq);
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+.Population h4 {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    color: var(--oq);
+    margin-left: 5px;
+}
+
+
+.region {
+    width: 149px;
+    height: 16px;
+    display: flex;
+    /* border: 1px solid lawngreen; */
+    margin: 8px 0 0 24px;
+}
+
+.region b {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: var(--oq);
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.region h4 {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    color: var(--oq);
+    margin-left: 5px;
+
+}
+
+.berlin {
+    width: 149px;
+    height: 16px;
+    display: flex;
+    /* border: 1px solid lawngreen; */
+    margin: 8px 0 0 24px;
+}
+
+.berlin b {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: var(--oq);
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+.berlin h4 {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    color: var(--oq);
+    margin-left: 5px;
+
+}
+
+.aland {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    background: var(--kok);
+}
+
+.aland img {
+    width: 100%;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.aland h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--oq);
+    margin: 24px 0 0 24px;
+    font-weight: 800;
+
+}
+
+.Albania {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    background:var(--kok);
+}
+
+.Albania img {
+    width: 100%;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.Albania h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--oq);
+    margin: 24px 0 0 24px;
+    font-weight: 800;
+
+}
+
+.Algeria {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    background: var(--kok);
+}
+
+.Algeria img {
+    width: 100%;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.Algeria h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--oq);
+    margin: 24px 0 0 24px;
+    font-weight: 800;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bts img{
+    width: 20px;
+height: 20px;
+padding-top: 8px;
+}
+
+.btn{
+    font-family: Nunito Sans;
+font-size: 16px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+background: none;
+color: white;
+border-radius: 8px;
+border: 0;
+width: 136px;
+height: 40px;
+gap: 10px;
+background: #2B3844;
+padding: 10px 39px 40px 32px;
+margin: 80px 0 80px 0px;
+}
+
+.flag{
+    display: flex;
+}
+
+.belgi img{
+    margin-bottom: 343px;
+    margin-left: -20px;
+}
+
+
+.texts{
+    display: flex;
+    margin: 39px 82px 0 144px;
+}
+
+.belgiya{
+    width: 207px;
+    font-family: Nunito Sans;
+font-size: 32px;
+font-weight: 800;
+line-height: 44px;
+letter-spacing: 0px;
+text-align: left;
+color: white;
+margin-bottom: 23px;
+}
+
+.belgium b{
+color: white;
+}
+
+.belgium p{
+    font-family: Nunito Sans;
+font-size: 16px;
+/* font-weight: 400; */
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+
+font-family: Nunito Sans;
+font-size: 16px;
+/* font-weight: 300; */
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+
+font-family: Nunito Sans;
+font-size: 16px;
+/* font-weight: 600; */
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+color: white;
+}
+
+.top b{
+    color: white;
+}
+
+.top p{
+    font-family: Nunito Sans;
+    font-size: 16px;
+    /* font-weight: 400; */
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+    font-family: Nunito Sans;
+    font-size: 16px;
+    /* font-weight: 300; */
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+    font-family: Nunito Sans;
+    font-size: 16px;
+    /* font-weight: 600; */
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+
+.top{
+    width: 400px;
+height: 96px;
+    margin-top: 67px;
+    /* margin-left: 117px; */
+}
